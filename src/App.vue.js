@@ -1,4 +1,3 @@
-/// <reference types="../node_modules/.vue-global-types/vue_3.5_0_0_0.d.ts" />
 import HeroSection from './components/HeroSection.vue';
 import FeaturesSection from './components/FeaturesSection.vue';
 import JoinSection from './components/JoinSection.vue';

@@ -1,4 +1,3 @@
-/// <reference types="../../node_modules/.vue-global-types/vue_3.5_0_0_0.d.ts" />
 import { RouterLink } from 'vue-router';
 // 调整导航项顺序与页面区块对应
 const navItems = [
