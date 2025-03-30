@@ -1,0 +1,14 @@
+// 主色系
+$miku-primary: #39c5bb;
+$miku-accent: #00d4d0;
+$miku-dark: #008b94;
+
+// 渐变色配置
+$gradient-primary: linear-gradient(135deg, $miku-primary 0%, $miku-accent 100%);
+$gradient-accent: linear-gradient(45deg, $miku-accent, $miku-dark);
+
+// 文字颜色
+$text-on-gradient: rgba(255,255,255,0.95);
+
+$breakpoint-mobile: 768px; // 新增移动端断点变量
+$breakpoint-tablet: 1024px; // 可选添加平板断点

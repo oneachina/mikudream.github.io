@@ -1,0 +1,13 @@
+@mixin miku-wave-divider {
+  position: relative;
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg"><path d="M0 80L1200 0V120H0z" fill="%2339c5bb"/></svg>');
+  }
+
+}
