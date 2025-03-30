@@ -1,8 +1,8 @@
 <script setup lang="ts">
 const copyIP = async () => {
-  const ip = 'mikudream.9666.fun:17777'
+  const qq = '207332507'
   try {
-    await navigator.clipboard.writeText(ip)
+    await navigator.clipboard.writeText(qq)
     const btn = document.querySelector('.copy-btn')
     btn?.classList.add('copy-success')
     setTimeout(() => btn?.classList.remove('copy-success'), 2000)
@@ -19,9 +19,9 @@ const copyIP = async () => {
       <h2 class="section-title">如何加入</h2>
       <div class="join-info">
         <div class="ip-box">
-          <h3><i class="fas fa-server"></i> 服务器地址</h3>
+          <h3><i class="fas fa-server"></i>服务器地址</h3>
           <button class="copy-btn" @click="copyIP">
-            <span class="ip-text">mikudream.9666.fun:17777</span>
+            <span class="ip-text">QQ群</span>
             <span class="copy-tooltip">点击复制</span>
           </button>
         </div>
